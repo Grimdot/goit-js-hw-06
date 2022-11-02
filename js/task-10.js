@@ -45,6 +45,7 @@ const onClickCreate = () => {
 
 const onClickDestroy = () => {
   refs.boxesWrap.innerHTML = "";
+  event.currentTarget.value = "";
 };
 
 refs.createBtn.addEventListener("click", onClickCreate);
